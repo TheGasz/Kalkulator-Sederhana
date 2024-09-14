@@ -9,32 +9,29 @@ int main() {
 
  
   do{
+     
       cout << "Enter operator: +, -, *, /: ";
   cin >> op;
 
-  cout << "Enter two operands: ";
+  cout << "Enter two operands: "<< endl;
   cin >> num1 >> num2;
 
-  cout << "Do You Want to Continue?(Y/N)" << endl ;
-  cin >> cont;
-  } while (cont == 'Y' || cont == 'y');
-  
   switch(op) {
 
     case '+':
-      cout << num1 << " + " << num2 << " = " << num1 + num2;
+      cout << num1 << " + " << num2 << " = " << num1 + num2<< endl;
       break;
 
     case '-':
-      cout << num1 << " - " << num2 << " = " << num1 - num2;
+      cout << num1 << " - " << num2 << " = " << num1 - num2<< endl;
       break;
 
     case '*':
-      cout << num1 << " * " << num2 << " = " << num1 * num2;
+      cout << num1 << " * " << num2 << " = " << num1 * num2<< endl;
       break;
 
     case '/':
-      cout << num1 << " / " << num2 << " = " << num1 / num2;
+      cout << num1 << " / " << num2 << " = " << num1 / num2 <<endl;
       break;
 
     default:
@@ -42,6 +39,12 @@ int main() {
       cout << "Error! operator is not correct";
       break;
   }
+
+ cout << "Do You Want to Continue?(Y/N)" << endl ;
+    cin >> cont;
+ } while (cont == 'Y' || cont == 'y');
+  
+  
 
   return 0;
   
