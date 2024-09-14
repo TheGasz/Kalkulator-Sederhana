@@ -10,5 +10,5 @@ hitung dengan cara cout enter your number cin num 1 dan num
 Setelah itu kita buat switch case tentang operator yang kita 
 punya
 Missal saat kita memilih 
-+ maka num1 + num2
+tanda tambah maka num1 + num2
 dan seterusnya
