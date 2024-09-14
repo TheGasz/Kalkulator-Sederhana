@@ -5,14 +5,20 @@ int main() {
 
   char op;
   float num1, num2;
+  char cont;
 
-  cout << "Enter operator: +, -, *, /: ";
+ 
+  do{
+      cout << "Enter operator: +, -, *, /: ";
   cin >> op;
 
   cout << "Enter two operands: ";
   cin >> num1 >> num2;
 
-
+  cout << "Do You Want to Continue?(Y/N)" << endl ;
+  cin >> cont;
+  } while (cont == 'Y' || cont == 'y');
+  
   switch(op) {
 
     case '+':
@@ -38,4 +44,5 @@ int main() {
   }
 
   return 0;
-}
+  
+  }
